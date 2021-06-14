@@ -10,10 +10,11 @@
 <body>
 <h1>Toutes nos listes par élection</h1>
 <section>
+    <?php  ?>
     <h2>Les candidats Écolo au parlement européen, arrondissement « Belgique »</h2>
     <ol>
         <li>
-            <div>Philippe Lamberts</div>
+            <div><?= $candidats->nom ?></div>
             <div>1e de liste</div>
             <div><img src="/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg"
                       alt=""></div>

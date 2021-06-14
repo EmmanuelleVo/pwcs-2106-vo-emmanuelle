@@ -1,6 +1,6 @@
 <?php
 
-define('DB_PATH', $_SERVER['DOCUMENT_ROOT'] . '/data/db.sqlite');
+define('DB_PATH', $_SERVER['DOCUMENT_ROOT'] . '/pwcs-2106-vo-emmanuelle/data/db.sqlite');
 
 $data = [];
-$view = 'candidate.php';
+$view = './views/candidate.php';

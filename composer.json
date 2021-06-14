@@ -1,0 +1,18 @@
+{
+    "name": "thienanvo/pwcs-2106-vo-emmanuelle",
+    "require": {
+        "nesbot/carbon": "^2.49"
+    },
+    "authors": [
+        {
+            "name": "thienanvo",
+            "email": "thienan_vo@live.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/",
+            "Controllers\\": "controllers/"
+        }
+    }
+}
