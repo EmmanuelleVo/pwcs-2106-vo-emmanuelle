@@ -12,7 +12,7 @@
 <section>
     <h2>Les candidats Écolo au parlement européen, arrondissement « Belgique »</h2>
     <ol>
-        <?php foreach ($candidates as $candidate): ?>
+        <?php foreach ($candidates as $key => $candidate): ?>
         <?php /*for ($i=0;$i<2;$i++): */?>
         <li>
             <div><?= $candidate->nom ?></div>

@@ -54,7 +54,21 @@ class Candidate
 
         $full_file_path = './assets/images/';
         $thumbs_file_path = './assets/thumbs/';
-        //TODO foreach de toutes les photos de la table candidate
+        $photos = scandir($full_file_path);
+        foreach ($photos as $photo) {
+            if(!is_dir($photo)) {
+                $photoCopied = copy($photo);
+                if(filesize($photoCopied) > 32000000) {
+                    //error
+                }
+                if($photoCopied === $candidate->photo) { // si nom du fichier = nom de photo dans db
+                    // voir en bas
+
+
+                }
+            }
+        }
+
         $file_name = sprintf('%s.%s', //crée une string à partir d'un format
             sha1_file($_FILES['photo']['tmp_name']), // génère nom de fichier unique
             $ext
