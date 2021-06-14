@@ -11,8 +11,8 @@
 <h1>Toutes nos listes par élection</h1>
 <section>
     <h2>Les candidats Écolo au parlement européen, arrondissement « Belgique »</h2>
-    <?php //foreach ($candidates) ?>
     <ol>
+        <?php foreach ($candidates as $candidate): ?>
         <li>
             <div><?= $candidates->nom ?></div>
             <div>1e de liste</div>
@@ -21,14 +21,7 @@
             <a href="/candidat/?id=1">Voir la
                 fiche de Philippe Lamberts</a>
         </li>
-        <li>
-            <div>Saskia Bricmont</div>
-            <div>2e de liste</div>
-            <div><img src="/images/thumbs/2E-saskia-Bricmont-cRalitza-Soultanova-.jpg"
-                      alt=""></div>
-            <a href="/candidat/?id=2">Voir la
-                fiche de Saskia Bricmont</a>
-        </li>
+        <?php endforeach; ?>
     </ol>
     <div>
         <a href="/election/?n_id=1&a_id=14">Voir toute la liste

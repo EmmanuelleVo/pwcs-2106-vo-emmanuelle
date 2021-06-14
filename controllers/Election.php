@@ -11,6 +11,7 @@ class Election //Home Page
         $candidateModel = new Candidate();
         $candidates = $candidateModel->all();
         $view = './views/election.php';
+        $candidates = json_decode(json_encode($candidates), true);
 
         // afficher les 2 premiers candidats selon l'arrondissement
 
@@ -22,12 +23,12 @@ class Election //Home Page
 
 
 
-
+            var_dump($candidate);
         }
+            //var_dump($candidates);
 
 
         return compact('name', 'level', 'arrondissement', 'status' ,'view');
-            var_dump($candidate['name']);
 
     }
 }
