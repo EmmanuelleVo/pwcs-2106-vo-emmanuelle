@@ -17,15 +17,6 @@ ORDER BY arrondissement, niveau';
 
     }
 
-    /*public function show(string $nom, string $photo): array // récupérer un candidat
-    {
-        $request = 'SELECT * FROM candidats';
-        $pdoSt = $this->pdo->query($request);
-
-        return $pdoSt->fetchAll();
-
-    }*/
-
     public function show(): array
     { // récupérer 2 candidates Belgique - Parlement Euro
         $request = 'SELECT nom, photo, arrondissement, niveau, statut from candidats
@@ -51,20 +42,6 @@ WHERE a.arrondissement = "Liège" AND n.niveau = "Parlement fédéral" LIMIT 2';
 
         return $pdoSt->fetchAll();
     }
-
-    public function findA(): array
-    { // 2 parlement fédéral, arrondissement « Liège »
-        $request = 'SELECT nom, photo, arrondissement, niveau, statut from candidats
-JOIN candidatures c on candidats.id = c.candidat_id
-JOIN arrondissements a on a.id = c.arrondissement_id
-JOIN niveaux n on n.id = c.niveau_id
-WHERE a.arrondissement = "Liège"
-LIMIT 2';
-        $pdoSt = $this->pdo->query($request);
-
-        return $pdoSt->fetchAll();
-    }
-
 
     public function findArrondissement(): array
     {
