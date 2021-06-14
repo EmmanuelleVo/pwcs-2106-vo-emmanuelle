@@ -9,6 +9,7 @@ class Election //Home Page
     function index()
     {
         $candidateModel = new Candidate();
+        $allCandidates = [];
         $candidates = $candidateModel->all();
         $view = './views/election.php';
         $candidates = json_decode(json_encode($candidates), true);
@@ -21,14 +22,21 @@ class Election //Home Page
             $candidateLevel = $candidate->niveau;
             $candidateStatus = $candidate->statut;
 
+            $candidateName = $candidate['nom'];
+            $candidateArrondissement = $candidate['arrondissement'];
+            $candidateLevel = $candidate['niveau'];
+            $candidateStatus = $candidate['statut'];
 
 
-            var_dump($candidate);
+            $allCandidates[$candidateName]['arrondissement'] = $candidateArrondissement;
+            $allCandidates[$candidateName]['niveau'] = $candidateLevel;
+            $allCandidates[$candidateName]['statut'] = $candidateStatus;
+
         }
-            //var_dump($candidates);
+            //var_dump($allCandidates); die();
 
 
-        return compact('name', 'level', 'arrondissement', 'status' ,'view');
+        return compact('allCandidates', 'candidates', 'arrondissement', 'status' ,'view');
 
     }
 }

@@ -13,14 +13,16 @@
     <h2>Les candidats Écolo au parlement européen, arrondissement « Belgique »</h2>
     <ol>
         <?php foreach ($candidates as $candidate): ?>
+        <?php for ($i=0;$i<=2;$i++): ?>
         <li>
-            <div><?= $candidates->nom ?></div>
+            <div><?= $candidate[$i]->nom ?></div>
             <div>1e de liste</div>
             <div><img src="/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg"
                       alt=""></div>
             <a href="/candidat/?id=1">Voir la
                 fiche de Philippe Lamberts</a>
         </li>
+        <?php endfor; ?>
         <?php endforeach; ?>
     </ol>
     <div>
