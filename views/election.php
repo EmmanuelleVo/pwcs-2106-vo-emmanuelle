@@ -10,8 +10,7 @@
 <body>
 <h1>Toutes nos listes par élection</h1>
 <section>
-    <h2>Les candidats Écolo
-        au parlement européen, arrondissement « Belgique »</h2>
+    <h2>Les candidats Écolo au parlement européen, arrondissement « Belgique »</h2>
     <ol>
         <li>
             <div>Philippe Lamberts</div>

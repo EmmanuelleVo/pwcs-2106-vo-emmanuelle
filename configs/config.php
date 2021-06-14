@@ -3,4 +3,4 @@
 define('DB_PATH', $_SERVER['DOCUMENT_ROOT'] . '/data/db.sqlite');
 
 $data = [];
-$view = 'dashboard.php';
+$view = 'candidate.php';

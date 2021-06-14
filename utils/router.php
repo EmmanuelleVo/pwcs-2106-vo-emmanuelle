@@ -3,7 +3,7 @@
 $routes = require('configs/routes.php');
 
 $method = $_SERVER['REQUEST_METHOD'];
-$methodName = '_'.$method;
+//$methodName = '_'.$method;
 $action = $$methodName['action'] ?? '' ; // = $_GET['action'] ou $_POST['action']
 $resource = $$methodName['resource'] ?? '';
 
