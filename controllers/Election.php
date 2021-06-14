@@ -13,8 +13,6 @@ class Election //Home Page
 
 
 
-
-
         return compact('view');
 
     }

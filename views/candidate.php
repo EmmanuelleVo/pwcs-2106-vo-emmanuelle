@@ -13,8 +13,7 @@
     <img src="/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg" alt="">
 </div>
 <div>
-    <p>Philippe Lamberts est candidat au parlement européen pour l’arrondissement
-        Belgique    </p>
+    <p>Philippe Lamberts est candidat au parlement européen pour l’arrondissementBelgique</p>
 </div>
 <input type="hidden" name="action" value="show">
 <input type="hidden" name="resource" value="candidate">
