@@ -10,13 +10,13 @@
 <body>
 <h1><?= $candidates->nom ?> Philippe Lamberts</h1>
 <div>
-    <img src="/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg" alt="">
+    <img src="<?= THUMBS.$candidates->photo ?>" alt="">
 </div>
 <div>
     <p><?= $candidates->nom ?> Philippe Lamberts est candidat au parlement européen pour l’arrondissementBelgique</p>
 </div>
 <input type="hidden" name="action" value="show">
 <input type="hidden" name="resource" value="candidate">
-<p><a href="/listes">Voir toutes nos listes</a></p>
+<p><a href="index.php">Voir toutes nos listes</a></p>
 </body>
 </html>

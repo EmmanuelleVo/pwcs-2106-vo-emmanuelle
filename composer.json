@@ -1,7 +1,8 @@
 {
     "name": "thienanvo/pwcs-2106-vo-emmanuelle",
     "require": {
-        "nesbot/carbon": "^2.49"
+        "nesbot/carbon": "^2.49",
+        "intervention/image": "^2.5"
     },
     "authors": [
         {

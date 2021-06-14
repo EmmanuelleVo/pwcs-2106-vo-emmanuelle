@@ -4,8 +4,8 @@ return [
     ['method' => 'GET',
         'action' => 'show',
         'resource' => 'candidate',
-        'controller' => 'Candidate', // nom du fichier
-        'callback' => 'show', // fonction de callback cible toujours fonction de Controllers
+        'controller' => 'Candidate',
+        'callback' => 'show',
     ],
     ['method' => 'GET',
         'action' => '',
@@ -16,7 +16,13 @@ return [
     ['method' => 'GET',
         'action' => 'show',
         'resource' => 'arrondissement',
-        'controller' => 'Arrondissement', // nom du fichier
-        'callback' => 'show', // fonction de callback cible toujours fonction de Controllers
+        'controller' => 'Arrondissement',
+        'callback' => 'show',
+    ],
+    ['method' => 'POST',
+        'action' => 'store',
+        'resource' => 'Candidate',
+        'controller' => 'Candidate',
+        'callback' => 'store'
     ],
 ];

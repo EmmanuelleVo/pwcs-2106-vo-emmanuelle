@@ -17,7 +17,7 @@
         <li>
             <div><?= $candidate->nom ?></div>
             <div><?= $candidate->status ?></div>
-            <div><img src="/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg"
+            <div><img src="/assets/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg"
                       alt=""></div>
             <a href="/candidat/?id=1">Voir la
                 fiche de <?= $candidate[$i]->nom ?></a>
@@ -41,7 +41,7 @@
         <li>
             <div>Sarah Schlitz</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Sarah-copie.jpg"
+            <div><img src="/assets/images/thumbs/Sarah-copie.jpg"
                       alt=""></div>
             <a href="/candidat/?id=15">Voir la
                 fiche de Sarah Schlitz</a>
@@ -49,7 +49,7 @@
         <li>
             <div>Samuel Cogolati</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Samuel-copie.jpg"
+            <div><img src="/assets/images/thumbs/Samuel-copie.jpg"
                       alt=""></div>
             <a href="/candidat/?id=16">Voir la
                 fiche de Samuel Cogolati</a>
@@ -70,7 +70,7 @@
         <li>
             <div>Cécile Thibaut</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Cécile-T.jpg"
+            <div><img src="/assets/images/thumbs/Cécile-T.jpg"
                       alt=""></div>
             <a href="/candidat/?id=39">Voir la
                 fiche de Cécile Thibaut</a>
@@ -78,7 +78,7 @@
         <li>
             <div>Nicolas Stilmant</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Nicolas-S.jpg"
+            <div><img src="/assets/images/thumbs/Nicolas-S.jpg"
                       alt=""></div>
             <a href="/candidat/?id=40">Voir la
                 fiche de Nicolas Stilmant</a>
@@ -99,7 +99,7 @@
         <li>
             <div>Simon Moutquin</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Simon-moutquin.jpg"
+            <div><img src="/assets/images/thumbs/Simon-moutquin.jpg"
                       alt=""></div>
             <a href="/candidat/?id=49">Voir la
                 fiche de Simon Moutquin</a>
@@ -107,7 +107,7 @@
         <li>
             <div>Coralie Vial</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Coralie-V.jpg"
+            <div><img src="/assets/images/thumbs/Coralie-V.jpg"
                       alt=""></div>
             <a href="/candidat/?id=50">Voir la
                 fiche de Coralie Vial</a>
@@ -128,7 +128,7 @@
         <li>
             <div>Jean-Marc Nollet</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/JM-Nolet.jpg"
+            <div><img src="/assets/images/thumbs/JM-Nolet.jpg"
                       alt=""></div>
             <a href="/candidat/?id=60">Voir la
                 fiche de Jean-Marc Nollet</a>
@@ -136,7 +136,7 @@
         <li>
             <div>Marie-Colline Leroy</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/MC-L.jpg"
+            <div><img src="/assets/images/thumbs/MC-L.jpg"
                       alt=""></div>
             <a href="/candidat/?id=61">Voir la
                 fiche de Marie-Colline Leroy</a>
@@ -157,7 +157,7 @@
         <li>
             <div>Georges Gilkinet</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/1E-Chambre_GG-copie.jpg"
+            <div><img src="/assets/images/thumbs/1E-Chambre_GG-copie.jpg"
                       alt=""></div>
             <a href="/candidat/?id=88">Voir la
                 fiche de Georges Gilkinet</a>
@@ -165,7 +165,7 @@
         <li>
             <div>Isabelle Gengler</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Isabelle-G.jpg"
+            <div><img src="/assets/images/thumbs/Isabelle-G.jpg"
                       alt=""></div>
             <a href="/candidat/?id=89">Voir la
                 fiche de Isabelle Gengler</a>
@@ -186,7 +186,7 @@
         <li>
             <div>Zakia Khattabi</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/1_Zakia_Khattabi_4.jpg"
+            <div><img src="/assets/images/thumbs/1_Zakia_Khattabi_4.jpg"
                       alt=""></div>
             <a href="/candidat/?id=100">Voir la
                 fiche de Zakia Khattabi</a>
@@ -194,7 +194,7 @@
         <li>
             <div>Gilles Vanden Burre</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/2_Gilles_Vanden_Burre_29.jpg"
+            <div><img src="/assets/images/thumbs/2_Gilles_Vanden_Burre_29.jpg"
                       alt=""></div>
             <a href="/candidat/?id=101">Voir la
                 fiche de Gilles Vanden Burre</a>
@@ -215,7 +215,7 @@
         <li>
             <div>Veronica Cremasco</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/5551-VC-Soft-copie.jpg"
+            <div><img src="/assets/images/thumbs/5551-VC-Soft-copie.jpg"
                       alt=""></div>
             <a href="/candidat/?id=124">Voir la
                 fiche de Veronica Cremasco</a>
@@ -223,7 +223,7 @@
         <li>
             <div>Olivier Bierin</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/O-Bierin-4853-8-compressé-copie.jpg"
+            <div><img src="/assets/images/thumbs/O-Bierin-4853-8-compressé-copie.jpg"
                       alt=""></div>
             <a href="/candidat/?id=125">Voir la
                 fiche de Olivier Bierin</a>
@@ -244,7 +244,7 @@
         <li>
             <div>Jean-Philippe Florent</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/JP-Florent.jpg"
+            <div><img src="/assets/images/thumbs/JP-Florent.jpg"
                       alt=""></div>
             <a href="/candidat/?id=254">Voir la
                 fiche de Jean-Philippe Florent</a>
@@ -252,7 +252,7 @@
         <li>
             <div>Coralie Paul</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Coralie-P.jpg"
+            <div><img src="/assets/images/thumbs/Coralie-P.jpg"
                       alt=""></div>
             <a href="/candidat/?id=255">Voir la
                 fiche de Coralie Paul</a>
@@ -273,7 +273,7 @@
         <li>
             <div>Hélène Ryckmans</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/hélène-ryckmans.jpg"
+            <div><img src="/assets/images/thumbs/hélène-ryckmans.jpg"
                       alt=""></div>
             <a href="/candidat/?id=230">Voir la
                 fiche de Hélène Ryckmans</a>
@@ -281,7 +281,7 @@
         <li>
             <div>Laurent Heyvaert</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Laurent-H.jpg"
+            <div><img src="/assets/images/thumbs/Laurent-H.jpg"
                       alt=""></div>
             <a href="/candidat/?id=231">Voir la
                 fiche de Laurent Heyvaert</a>
@@ -302,7 +302,7 @@
         <li>
             <div>Stéphane Hazée</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/1E_rég_Namur_Hazée_Stéphane-copie.jpg"
+            <div><img src="/assets/images/thumbs/1E_rég_Namur_Hazée_Stéphane-copie.jpg"
                       alt=""></div>
             <a href="/candidat/?id=162">Voir la
                 fiche de Stéphane Hazée</a>
@@ -310,7 +310,7 @@
         <li>
             <div>Valérie Delporte</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Valérie-D.jpg"
+            <div><img src="/assets/images/thumbs/Valérie-D.jpg"
                       alt=""></div>
             <a href="/candidat/?id=163">Voir la
                 fiche de Valérie Delporte</a>
@@ -331,7 +331,7 @@
         <li>
             <div>Anne Kelleter</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Anne-2.jpg"
+            <div><img src="/assets/images/thumbs/Anne-2.jpg"
                       alt=""></div>
             <a href="/candidat/?id=150">Voir la
                 fiche de Anne Kelleter</a>
@@ -339,7 +339,7 @@
         <li>
             <div>Hajib El Hajjaji</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Hajib-2.jpg"
+            <div><img src="/assets/images/thumbs/Hajib-2.jpg"
                       alt=""></div>
             <a href="/candidat/?id=151">Voir la
                 fiche de Hajib El Hajjaji</a>
@@ -360,7 +360,7 @@
         <li>
             <div>Bénédicte Linard</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Béné-L.jpg"
+            <div><img src="/assets/images/thumbs/Béné-L.jpg"
                       alt=""></div>
             <a href="/candidat/?id=176">Voir la
                 fiche de Bénédicte Linard</a>
@@ -368,7 +368,7 @@
         <li>
             <div>Simon Varrasse</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Simon-V.jpg"
+            <div><img src="/assets/images/thumbs/Simon-V.jpg"
                       alt=""></div>
             <a href="/candidat/?id=177">Voir la
                 fiche de Simon Varrasse</a>
@@ -389,7 +389,7 @@
         <li>
             <div>Manu Disabato</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Manu-D.jpg"
+            <div><img src="/assets/images/thumbs/Manu-D.jpg"
                       alt=""></div>
             <a href="/candidat/?id=190">Voir la
                 fiche de Manu Disabato</a>
@@ -397,7 +397,7 @@
         <li>
             <div>Larissa Fontana</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Larissa-F.jpg"
+            <div><img src="/assets/images/thumbs/Larissa-F.jpg"
                       alt=""></div>
             <a href="/candidat/?id=191">Voir la
                 fiche de Larissa Fontana</a>
@@ -418,7 +418,7 @@
         <li>
             <div>Valentine PLACE</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Valentine-P.jpg"
+            <div><img src="/assets/images/thumbs/Valentine-P.jpg"
                       alt=""></div>
             <a href="/candidat/?id=200">Voir la
                 fiche de Valentine PLACE</a>
@@ -426,7 +426,7 @@
         <li>
             <div>Marc KIEVITS</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Marc-K.jpg"
+            <div><img src="/assets/images/thumbs/Marc-K.jpg"
                       alt=""></div>
             <a href="/candidat/?id=201">Voir la
                 fiche de Marc KIEVITS</a>
@@ -447,7 +447,7 @@
         <li>
             <div>Christophe Clersy</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Xtof-1.jpg"
+            <div><img src="/assets/images/thumbs/Xtof-1.jpg"
                       alt=""></div>
             <a href="/candidat/?id=210">Voir la
                 fiche de Christophe Clersy</a>
@@ -455,7 +455,7 @@
         <li>
             <div>Vinciane Ruelle</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Vinciane-1.jpg"
+            <div><img src="/assets/images/thumbs/Vinciane-1.jpg"
                       alt=""></div>
             <a href="/candidat/?id=211">Voir la
                 fiche de Vinciane Ruelle</a>
@@ -476,7 +476,7 @@
         <li>
             <div>France Masai</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/1E_rég_Diphi_Masai_France-copie.jpg"
+            <div><img src="/assets/images/thumbs/1E_rég_Diphi_Masai_France-copie.jpg"
                       alt=""></div>
             <a href="/candidat/?id=246">Voir la
                 fiche de France Masai</a>
@@ -484,7 +484,7 @@
         <li>
             <div>Raphaël Frédérick</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Raphaël-F.jpg"
+            <div><img src="/assets/images/thumbs/Raphaël-F.jpg"
                       alt=""></div>
             <a href="/candidat/?id=247">Voir la
                 fiche de Raphaël Frédérick</a>
@@ -505,7 +505,7 @@
         <li>
             <div>Rodrigue Demeuse</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/Rod-Bis-retravaillé-683x1024.jpg"
+            <div><img src="/assets/images/thumbs/Rod-Bis-retravaillé-683x1024.jpg"
                       alt=""></div>
             <a href="/candidat/?id=266">Voir la
                 fiche de Rodrigue Demeuse</a>
@@ -513,7 +513,7 @@
         <li>
             <div>Géraldine Blavier</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/Gégé-web.jpg"
+            <div><img src="/assets/images/thumbs/Gégé-web.jpg"
                       alt=""></div>
             <a href="/candidat/?id=267">Voir la
                 fiche de Géraldine Blavier</a>
@@ -534,7 +534,7 @@
         <li>
             <div>Alain Maron</div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/1_Alain_Maron_8.jpg"
+            <div><img src="/assets/images/thumbs/1_Alain_Maron_8.jpg"
                       alt=""></div>
             <a href="/candidat/?id=274">Voir la
                 fiche de Alain Maron</a>
@@ -542,7 +542,7 @@
         <li>
             <div>Barbara Trachte</div>
             <div>2e de liste</div>
-            <div><img src="/images/thumbs/2_Barbara_Trachte_10.jpg"
+            <div><img src="/assets/images/thumbs/2_Barbara_Trachte_10.jpg"
                       alt=""></div>
             <a href="/candidat/?id=275">Voir la
                 fiche de Barbara Trachte</a>

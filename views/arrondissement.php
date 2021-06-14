@@ -11,7 +11,8 @@
 <h1>La liste du Parlement européen pour
     l’arrondissement
     Belgique</h1>
-<?php if($candidates->arrondissement === 'Belgique'): ?>
+<?php //var_dump($candidates->nom);die(); ?>
+<?php if($candidates->arrondissement === 'Belgique' && $candidates->niveau === 'Parlement européen'): ?>
 <section>
     <h2>Les candidats</h2>
     <ol>
@@ -19,7 +20,7 @@
         <li>
             <div><?= $candidate->nom ?></div>
             <div>1e de liste</div>
-            <div><img src="/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg"
+            <div><img src="/assets/images/thumbs/1E-Lamberts-cRalitza-Soultanova-1.jpg"
                       alt=""></div>
             <a href="/candidat/?id=1">Voir la
                 fiche de Philippe Lamberts</a>
