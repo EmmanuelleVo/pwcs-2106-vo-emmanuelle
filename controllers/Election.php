@@ -32,8 +32,12 @@ class Election //Home Page
             $allCandidates[$candidateName]['niveau'] = $candidateLevel;
             $allCandidates[$candidateName]['statut'] = $candidateStatus;
 
+
+
         }
             //var_dump($allCandidates); die();
+
+
 
 
         return compact('allCandidates', 'candidates', 'arrondissement', 'status' ,'view');
