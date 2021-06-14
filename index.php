@@ -8,7 +8,7 @@ $route = require('utils/router.php');
 
 $controllerName = 'Controllers\\'.$route['controller']; // = \Controllers\Candidate par ex
 
-var_dump($view);
+//var_dump($view);
 //$controller = new $controllerName;
 
 //$data = call_user_func([$controller ,$route['callback']]);
